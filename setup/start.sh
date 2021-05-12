@@ -113,6 +113,10 @@ source setup/zpush.sh
 source setup/management.sh
 source setup/munin.sh
 
+sysctl -w net.ipv6.conf.all.disable_ipv6=0
+sysctl -w net.ipv6.conf.default.disable_ipv6=0
+service nsd start
+
 # Wait for the management daemon to start...
 until nc -z -w 4 127.0.0.1 10222
 do

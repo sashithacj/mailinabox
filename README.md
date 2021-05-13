@@ -56,7 +56,7 @@ For experts, start with a completely fresh (really, I mean it) Ubuntu 18.04 LTS 
 
 Clone this repository and checkout the tag corresponding to the most recent release:
 
-	$ git clone https://github.com/mail-in-a-box/mailinabox
+	$ git clone https://github.com/sashithacj/mailinabox
 	$ cd mailinabox
 	$ git checkout v0.53a
 
